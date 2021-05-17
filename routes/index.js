@@ -53,7 +53,7 @@ router.get('/send-txt', (req, res) => {
     res.download(__dirname + 'nobre_archivo.txt'); // se agrega el path del archivo
 })
 /*
-            Rutas Asyncronas No funciona
+            Rutas Asyncronas
 */
 // Primero se tiene q crear la funcion asyncrona
 async function sleep(ms){
