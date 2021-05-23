@@ -5,7 +5,7 @@ router.use((req, res, next) => {
     console.log(`${req.url} - ${req.method} - ${req.ip}`);
     next();
 })
-// En una parte especifica con dato especifico
+// En una parte especifica con dato
 router.use('/user/:id', function(req, res, next){
     console.log('Request type:', req.method);
     next();
