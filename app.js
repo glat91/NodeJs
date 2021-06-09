@@ -15,11 +15,10 @@ app.set('view engine', 'ejs');
 /* 
                 Middlewares 
 */
-//app.use(express.jclsson()); // Uso de json No funciona
-app.use(bodyParser.json()); // Uso de json
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false})); // recibir en url
-app.use('/api/', middle); // Personalizados
-app.use(morgan('dev')) // Como flask imprime en consola todo lo que sucede
+app.use('/api/', middle);
+app.use(morgan('dev'))
 // Rutas
 app.use('/api/', routes); // Empiezan con Api
 //static files .js, .css
