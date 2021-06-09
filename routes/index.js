@@ -4,7 +4,6 @@ const router = express.Router();
 /*
                 Synchronous Rute
 */
-// Forma Basica esto se pasara a controllers
 router.get('/', (req, res) => {
     res.render('index', {
         passVar: "Data Sending" // Way to pass values between pages
