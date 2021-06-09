@@ -1,6 +1,6 @@
-BasicNodeJs
-Basic Node.js Server
+#BasicNodeJs
+
 
 Server Node.js with Nodemon, Morgan and BodyParser.
 
-This respository is better estrutrued then SimpleNode.js
+This respository is better strutured than SimpleNode.js
